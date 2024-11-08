@@ -79,7 +79,7 @@ document.getElementById("contact-form").addEventListener("submit", function(even
 particlesJS("particles-js", {
     "particles": {
         "number": {
-            "value": 80,
+            "value": 40,
             "density": {
                 "enable": true,
                 "value_area": 800
