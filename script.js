@@ -73,6 +73,15 @@ document.getElementById("contact-form").addEventListener("submit", function(even
 });
 
 
+ document.addEventListener("DOMContentLoaded", function() {
+        var script = document.createElement('script');
+        script.src = 'particles.min.js';
+        script.onload = function() {
+            particlesJS("particles-js", {
+                // Configuration here
+            });
+        };
+        document.head.appendChild(script);
 
 
 // Particles stuff
